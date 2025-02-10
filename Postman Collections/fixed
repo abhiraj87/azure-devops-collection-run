@@ -1,0 +1,23 @@
+#%RAML 0.8
+title: CUE-5317Collection00
+version: '1.0'
+baseUri: https://api.github.com/user
+protocols:
+- HTTPS
+baseUriParameters: {}
+/repos:
+  get:
+    headers:
+      Accept:
+        type: string
+        example: application/vnd.github+json
+        required: true
+        displayName: Accept
+      X-GitHub-Api-Version:
+        type: string
+        example: 2022-11-28
+        required: true
+        displayName: X-GitHub-Api-Version
+    responses:
+      '200':
+        description: Success
