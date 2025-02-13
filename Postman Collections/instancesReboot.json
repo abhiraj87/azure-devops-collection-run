@@ -16,6 +16,19 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "instancesReboot",
+			"id": "9041c86a-16e3-492f-a339-c0287a6fbac0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.postman.com"
+			},
+			"response": []
 		}
 	]
 }
