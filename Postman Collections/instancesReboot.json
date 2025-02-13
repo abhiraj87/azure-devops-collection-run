@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "16b658c3-6e5a-4ce9-a7b2-ef71cda512a3",
+		"name": "GraphqlApisTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "1cffa766-fd71-4e99-b37c-fc88e6282ff7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
