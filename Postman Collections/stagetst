@@ -13,6 +13,10 @@
           {
             "Name": "Server 1",
             "Url": "https://www.google.com"
+          },
+          {
+            "Name": "Server 2",
+            "Url": "https://www.postman.com"
           }
         ]
       }
@@ -39,6 +43,7 @@
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
+      "Server": "Server 1",
       "Route": "/",
       "Responses": {},
       "Response": {
@@ -100,6 +105,7 @@
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
+      "Server": "Server 2",
       "Route": "/",
       "Responses": {},
       "Response": {
@@ -157,10 +163,11 @@
     },
     {
       "AuthenticateEndpointWith": [],
-      "Name": "abhisheknewRequest",
+      "Name": "instanesConsumer",
       "HTTPMethod": "GET",
       "Group": "Misc",
       "RequiresAuthentication": true,
+      "Server": "Server 2",
       "Route": "/",
       "Responses": {},
       "Response": {
@@ -196,7 +203,69 @@
       "Errors": [],
       "TestCases": [
         {
-          "Name": "abhisheknewRequest",
+          "Name": "instanesConsumer",
+          "Enabled": true,
+          "ShouldPass": true,
+          "InputParameters": [],
+          "ExpectedStatus": "200",
+          "ExpectedHeaders": [],
+          "ExpectedHeadersAllowExtra": true,
+          "ExpectedBodyMatchMode": "NONE",
+          "ExpectedArrayOrderedMatching": false,
+          "ExpectedArrayCheckCount": false,
+          "ResponseMatchSchema": true
+        }
+      ],
+      "WrapBodyInObject": false,
+      "Deprecated": false,
+      "XmlRequest": false,
+      "XmlResponse": false,
+      "ErrorTemplates": {},
+      "SkipAdditionalHeaders": false
+    },
+    {
+      "AuthenticateEndpointWith": [],
+      "Name": "instancesConsumerReboot",
+      "HTTPMethod": "GET",
+      "Group": "Misc",
+      "RequiresAuthentication": true,
+      "Server": "Server 2",
+      "Route": "/",
+      "Responses": {},
+      "Response": {
+        "Optional": false,
+        "AnyOfTypes": [],
+        "AnyOfCasesMeta": [],
+        "OneOfTypes": [],
+        "OneOfCasesMeta": [],
+        "NotTypes": [],
+        "NotCasesMeta": [],
+        "Type": "Void",
+        "IsSdlNativeType": true,
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "Examples": [],
+        "Nullable": false,
+        "NullableArrayItems": false,
+        "NullableMapValues": false,
+        "ReadOnly": false,
+        "WriteOnly": false,
+        "IsArray": false,
+        "IsMap": false,
+        "IsArrayOfMap": false,
+        "Deprecated": false,
+        "Name": "Response",
+        "DefaultValue": ""
+      },
+      "HasOptionalQueryParams": false,
+      "HasOptionalFieldParams": false,
+      "CollectParameters": false,
+      "Parameters": [],
+      "Errors": [],
+      "TestCases": [
+        {
+          "Name": "instancesConsumerReboot",
           "Enabled": true,
           "ShouldPass": true,
           "InputParameters": [],
