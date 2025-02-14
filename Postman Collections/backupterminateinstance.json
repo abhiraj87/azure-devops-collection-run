@@ -32,6 +32,45 @@
 				"url": "https://www.google.com"
 			},
 			"response": []
+		},
+		{
+			"name": "remainder",
+			"id": "3ff64ed2-5d63-46d7-b8c7-98c17cf0e1ab",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.postman.com"
+			},
+			"response": []
+		},
+		{
+			"name": "divisor",
+			"id": "c53b424f-be43-4ae8-b3fe-34b591d8e111",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.postman.com"
+			},
+			"response": []
+		},
+		{
+			"name": "podsIncrease",
+			"id": "2c3f5695-0630-40a0-843c-e750bf3082bf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.postman.com"
+			},
+			"response": []
 		}
 	]
 }
