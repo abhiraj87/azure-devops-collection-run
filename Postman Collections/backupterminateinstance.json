@@ -84,6 +84,19 @@
 				"url": "www.postman.com"
 			},
 			"response": []
+		},
+		{
+			"name": "podsDecrease",
+			"id": "fcc42e18-246f-4c41-91a9-a46ceb59ca7b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.postman.com"
+			},
+			"response": []
 		}
 	]
 }
