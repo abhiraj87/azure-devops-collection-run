@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "quotient",
 			"event": [
 				{
 					"listen": "test",
@@ -29,7 +29,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://www.google.com"
+				"url": "www.postman.com"
 			},
 			"response": []
 		},
