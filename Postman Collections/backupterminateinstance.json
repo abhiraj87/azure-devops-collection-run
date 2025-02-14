@@ -71,6 +71,19 @@
 				"url": "www.postman.com"
 			},
 			"response": []
+		},
+		{
+			"name": "dividend",
+			"id": "ce2750a8-e754-4c05-9e2e-75ff3f2e8f85",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "www.postman.com"
+			},
+			"response": []
 		}
 	]
 }
