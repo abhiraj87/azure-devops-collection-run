@@ -6,18 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
-			"id": "1cffa766-fd71-4e99-b37c-fc88e6282ff7",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
 			"name": "instancesReboot",
 			"id": "9041c86a-16e3-492f-a339-c0287a6fbac0",
 			"protocolProfileBehavior": {
