@@ -97,19 +97,6 @@
 				"url": "www.postman.com"
 			},
 			"response": []
-		},
-		{
-			"name": "podsDelete",
-			"id": "27761dc7-5fea-457c-b3ab-27bac22e6756",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "www.postman.com"
-			},
-			"response": []
 		}
 	]
 }
