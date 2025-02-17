@@ -3,7 +3,7 @@ info:
   version: '1.0'
   title: testCollection
   contact: {}
-host: www.google.com
+host: www.postman.com
 basePath: /
 securityDefinitions: {}
 schemes:
@@ -15,10 +15,10 @@ produces:
 paths:
   /:
     get:
-      summary: New Request
+      summary: testing
       tags:
       - Misc
-      operationId: NewRequest
+      operationId: testing
       deprecated: false
       produces:
       - application/json
